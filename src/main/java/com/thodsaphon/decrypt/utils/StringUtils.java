@@ -25,7 +25,7 @@ public class StringUtils {
         }
 
         if (message.isBlank()) {
-            return StringUtils.EMPTY;
+            return EMPTY;
         }
 
         return new StringBuilder(message).reverse().toString();
